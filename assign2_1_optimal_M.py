@@ -29,15 +29,7 @@ for item in degree:
     mean_error = math.sqrt(error)
     errors = np.insert(errors,len(errors), mean_error)
 print(errors)
-#plt.plot(x, data,'o',color='blue')
-#plt.plot(x, y , color='green')
-#plt.plot(x, predict, color='red')
-#plt.xlabel("x")
-#plt.ylabel("t")
-#plt.show()
 
-#testing 
-#x values
 x_test = np.linspace(3, 6, 100)
 #y values
 y_test = np.sin(2*math.pi*x)
